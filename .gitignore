@@ -1,13 +1,50 @@
-# general things to ignore
-build/
-dist/
-*.egg-info/
-*.egg
-*.py[cod]
-__pycache__/
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
 *.so
-*~
+*.pyc
 
-# due to using tox and pytest
-.tox
-.cache
+# Logs and databases #
+######################
+*.log
+*.sqlite
+*.rdb
+*.pid
+.vagrant/*
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IDE generated files #
+#######################
+*.sublime-project
+*.sublime-workspace
+.codeintel/*
+
+# Django static folder and build files
+static/*
+src/*
+env/*
+
+# Reports
+reports/*
+.rvmrc
+
+# Others
+*.bak
+.sass-cache/*
+rfpverse/static/.sass-cache/*
+rfpverse/settings.py
+
+# yeoman
+.tmp
+.sass-cache
+.bower
